@@ -1,0 +1,54 @@
+.container-adjust{
+    margin-top: 50px; 
+    padding-top: 30px;  
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-pd-1{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.card-pd-1{
+    padding-top: 20px;
+}
+.card-bg-2{
+    background-color: #50a5a4;
+    color: white;
+}
+.bg-1{
+    background-color: #50a5a4;
+    font-size: 20px;
+}
+.bg-adrun-crd{
+    background-color: rgb(105, 110, 175);
+}
+.btn-bg-1{
+    background-color: white;
+    color: black;
+}
+.btn-bg-1:hover{
+    background-color: white;
+    color: black;
+}
+.pd-2{
+    padding-top: 25px;
+}
+.brd{
+    border:1px solid #50a5a4;
+    border-radius: 5px;
+}
+.act-1 .active{
+    background-color: rgb(69, 155, 66) !important;
+    color: white !important;
+}
+.fnt-bdrun{
+    font-size: 25px;
+}
+.deliveryslip-fnt{
+    font-size: 14px;
+}

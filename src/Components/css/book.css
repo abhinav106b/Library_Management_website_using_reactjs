@@ -1,0 +1,226 @@
+
+.under-const{      
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+.lrd-icon{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-end{
+    transition: 0.3s;
+    width: 100%;
+    background-color: #ffffff !important;
+    border-radius: 5px;
+    color:white;
+    padding-bottom: 1px; 
+}
+.crd-brd-right{
+    border-right: 1px solid rgb(45, 135, 170);
+}
+.crd-brd-btm{
+    border-bottom: 1px solid rgb(76, 189, 241);
+}
+.row .fnt-grey{
+    color: rgb(77, 74, 74);
+    font-size: 20px;
+    margin-top: 8px;
+}
+.row .height{
+    height:150px
+}
+.row .fnt{
+    font-size:25px;
+}
+.crd-bg-1{
+    background-color: rgb(76, 189, 241);
+}
+.crd-bg-2{
+    background-color: rgb(45, 135, 170);
+}
+.pd-top-1{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.crd-hd-fnt{
+    font-size: 15px;
+}
+.crd-p-fnt{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(87, 84, 84);
+}
+.crd-a{
+    font-weight: bold;
+    font-size: 12px;
+    color: #3d9794 !important;
+}
+.crd-a:hover{
+    cursor: pointer;
+}
+.crd-btn-1{
+    height: fit-content;
+    font-size: 10px;
+    border:1px solid grey;
+    margin-left: 5px;
+}
+.crd-btn-2{
+    height: 22px;
+    margin-left: 2px;
+    padding-right: 5px;
+    width: 30px;
+    font-size: 10px;
+}
+.crd-btn-3{
+    height: fit-content;
+    font-size: 10px;
+    border:1px solid grey;
+    margin-left: 5px;
+    width: fit-content;
+}
+.img-1{
+    width:100%;
+    height:80%;
+    object-fit:contain;
+}
+.inline-ht{
+    line-height: 0px;
+}
+.crd-main{
+    background-color: white;
+    padding-top: 20px;
+}
+.search-box-2{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: fit-content;
+    font-size: 15px;
+    font-weight:lighter;
+    width: 100%;    
+}
+.search-btn{
+    background-color:#2B7A78;
+    height:37px;
+}
+
+.drp-toggle{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    border: 1px solid rgb(167, 160, 160);
+    box-shadow: 1px 5px 10px black;
+    margin-top: 5px;
+}
+.test-10{
+    overflow: visible !important;
+}
+.btn-search{
+    height: fit-content;
+    border: 1px solid grey;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    font-weight:lighter;
+}
+.search-pd-l{
+    padding-left: 40px;
+}
+.cursor-pointer:hover{
+    cursor:pointer;
+}
+
+.list-group .li-ht{
+    height: 30px;
+    list-style: none;
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 5px;
+    color: rgb(78, 76, 76);
+    font-size: 14px;
+}
+.center-1{
+    margin-left: 150px;
+}
+
+
+
+
+
+.nav-links-1{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.nav-links-2{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px 20px;
+    margin: 0 10px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.navbg{
+    background-color: #2B7A78;
+}
+.nav-links-mobile{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+@media screen and (max-width:770px){
+    
+    .nav-links-1{
+        display: none;
+    }
+    .navbg{
+        background-color: #2B7A78;
+        height: 55px;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        list-style: none;
+        display: block;
+        background-color: #2B7A78;
+        left:0px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .nav-links-2{
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+        background-color: #2B7A78;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        border: none;
+        background-color: #2B7A78;
+        outline: none;
+        top:8px;
+        right:25px;  
+    }
+
+}

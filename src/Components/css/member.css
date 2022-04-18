@@ -1,0 +1,132 @@
+
+.pagination{
+    font-size: 17px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(155, 143, 143);
+    width: max-content;
+    height: 30px;
+}
+
+.pagination a {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #1472ac;
+    border-right: 1px solid rgb(155, 143, 143);
+    border-left: 1px solid rgb(155, 143, 143);
+    background-color: white;
+    text-align: center;
+}
+.pagination a:hover{
+    text-decoration: none;
+    background-color: #24a0ed;
+    color: white;
+    cursor: pointer;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  
+}
+.page-ht{
+    padding-top: 5px;
+    height: 26px;
+}
+.card-1{
+    background-color: #75d4d1;
+    font-size: 20px;
+}
+.search-box{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: fit-content;
+    font-size: 15px;
+    font-weight:lighter;
+    padding-left: 30px;
+}
+.search-btn{
+    background-color:#2B7A78;
+    height:37px;
+}
+.search-icon{
+    position:absolute;
+    padding-top: 10px;
+    padding-left: 7px;
+    
+}
+.icon-pos{
+    margin-right: 100%;
+}
+.bg-1{
+    background-color: #50a5a4;
+    font-size: 17px;
+    height:fit-content;
+}
+.btn-bg-1{
+    background-color: white;
+    color: black;
+}
+.btn-bg-1:active{
+    background-color: black;
+}
+.act .active{
+    background-color: rgb(69, 155, 66) !important;
+    color: white !important;
+}
+.brd{
+    border:1px solid #50a5a4;
+    border-radius: 5px;
+}
+.brd-btm{
+    border-bottom: 5px solid rgb(79, 78, 82);
+}
+.fnt-p{
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pa-1{
+    color: #2B7A78 !important;
+    font-weight: bold;
+}
+.pa-1:hover{
+    cursor:pointer;
+}
+.cursor-pointer:hover{
+    cursor:pointer;
+}
+.pd-test{
+    margin-left: 20px;
+}
+.abs{
+    position:fixed;
+}
+.btn-pymt{
+    margin-right: 5px;
+}
+.row .pymt-box{
+    background-color: white;
+    height:max-content;
+    padding-top: 15px;
+    color: gray;
+    border:0.5px solid rgb(218, 216, 216);
+    padding-bottom: 25px;
+}
+.table-pymt{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    overflow-x:auto;
+}
+.fnt-hd-pymt{
+    color: rgb(83, 82, 82);
+    padding-bottom: 20px;
+}
+.crd-brd-btm{
+    border-bottom: 1px solid #50a5a4;
+}
+
